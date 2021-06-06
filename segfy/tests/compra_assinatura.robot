@@ -66,7 +66,7 @@ Cadastro de Usuario Trial e compra da assinatura
     Sleep           5
 
 #ERRO-NÃO LOCALIZA o elemento do botão Contratar agora!
-    Click Element               //div[@class="col-sm-4"]//a[text()="Contratar agora!"
+    Click Element               //div[@class="col-sm-4"]//a[text()="Contratar agora!"]
     Sleep           5
 
 #NÃO TESTADO - Inserção de dados fake
