@@ -1,508 +1,505 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210606 12:41:13.420" rpa="false" schemaversion="2">
-<suite id="s1" name="Tests" source="c:\qaninja\robot\segfy\tests">
-<suite id="s1-s1" name="Cadastro Trial" source="c:\qaninja\robot\segfy\tests\cadastro_trial.robot">
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210606 15:27:26.995" rpa="false" schemaversion="2">
+<suite id="s1" name="Tests" source="c:\robot\segfy\tests">
+<suite id="s1-s1" name="Cadastro Trial" source="c:\robot\segfy\tests\cadastro_trial.robot">
 <test id="s1-s1-t1" name="Cadastro de Usuario Trial">
 <kw name="Nova seção" library="base" type="SETUP">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${url}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20210606 12:41:14.829" level="INFO">Opening browser 'chrome' to base url 'https://homol-www.segfy.com/Experimente'.</msg>
-<status status="PASS" starttime="20210606 12:41:14.829" endtime="20210606 12:41:25.448"/>
+<msg timestamp="20210606 15:27:28.588" level="INFO">Opening browser 'chrome' to base url 'https://homol-www.segfy.com/Experimente'.</msg>
+<status status="PASS" starttime="20210606 15:27:28.588" endtime="20210606 15:27:37.243"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20210606 12:41:25.449" endtime="20210606 12:41:26.137"/>
+<status status="PASS" starttime="20210606 15:27:37.244" endtime="20210606 15:27:37.431"/>
 </kw>
-<status status="PASS" starttime="20210606 12:41:14.829" endtime="20210606 12:41:26.137"/>
+<status status="PASS" starttime="20210606 15:27:28.587" endtime="20210606 15:27:37.434"/>
 </kw>
 <kw name="Name" library="FakerLibrary">
 <var>${nomefake}</var>
 <doc>:example 'John Doe'</doc>
-<msg timestamp="20210606 12:41:26.139" level="INFO">${nomefake} = Rafael Nascimento</msg>
-<status status="PASS" starttime="20210606 12:41:26.138" endtime="20210606 12:41:26.139"/>
+<msg timestamp="20210606 15:27:37.441" level="INFO">${nomefake} = Mirella Oliveira</msg>
+<status status="PASS" starttime="20210606 15:27:37.439" endtime="20210606 15:27:37.442"/>
 </kw>
 <kw name="Email" library="FakerLibrary">
 <var>${emailfake}</var>
-<msg timestamp="20210606 12:41:26.142" level="INFO">${emailfake} = alexandre19@da.com</msg>
-<status status="PASS" starttime="20210606 12:41:26.140" endtime="20210606 12:41:26.142"/>
+<msg timestamp="20210606 15:27:37.452" level="INFO">${emailfake} = thales49@ig.com.br</msg>
+<status status="PASS" starttime="20210606 15:27:37.447" endtime="20210606 15:27:37.453"/>
 </kw>
 <kw name="Phone Number" library="FakerLibrary">
 <var>${telefonefake}</var>
-<msg timestamp="20210606 12:41:26.144" level="INFO">${telefonefake} = +55 41 4741-2939</msg>
-<status status="PASS" starttime="20210606 12:41:26.143" endtime="20210606 12:41:26.144"/>
+<msg timestamp="20210606 15:27:37.460" level="INFO">${telefonefake} = +55 (031) 0092-8730</msg>
+<status status="PASS" starttime="20210606 15:27:37.457" endtime="20210606 15:27:37.461"/>
 </kw>
 <kw name="Name" library="FakerLibrary">
 <var>${empresafake}</var>
 <doc>:example 'John Doe'</doc>
-<msg timestamp="20210606 12:41:26.146" level="INFO">${empresafake} = Pedro Lucas Monteiro</msg>
-<status status="PASS" starttime="20210606 12:41:26.145" endtime="20210606 12:41:26.146"/>
+<msg timestamp="20210606 15:27:37.469" level="INFO">${empresafake} = Thales Duarte</msg>
+<status status="PASS" starttime="20210606 15:27:37.465" endtime="20210606 15:27:37.469"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:hs-eu-confirmation-button</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:26.147" level="INFO">Clicking element 'id:hs-eu-confirmation-button'.</msg>
-<status status="PASS" starttime="20210606 12:41:26.147" endtime="20210606 12:41:26.302"/>
+<msg timestamp="20210606 15:27:37.476" level="INFO">Clicking element 'id:hs-eu-confirmation-button'.</msg>
+<status status="PASS" starttime="20210606 15:27:37.471" endtime="20210606 15:27:38.154"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:27.316" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:26.303" endtime="20210606 12:41:27.316"/>
+<msg timestamp="20210606 15:27:39.163" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:38.155" endtime="20210606 15:27:39.163"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>class:hoverl_85b0</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:27.318" level="INFO">Clicking element 'class:hoverl_85b0'.</msg>
-<status status="PASS" starttime="20210606 12:41:27.318" endtime="20210606 12:41:27.609"/>
+<msg timestamp="20210606 15:27:39.166" level="INFO">Clicking element 'class:hoverl_85b0'.</msg>
+<status status="PASS" starttime="20210606 15:27:39.165" endtime="20210606 15:27:39.567"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:28.626" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:27.610" endtime="20210606 12:41:28.627"/>
+<msg timestamp="20210606 15:27:40.569" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:39.568" endtime="20210606 15:27:40.569"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:jivo_close_button</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:28.629" level="INFO">Clicking element 'id:jivo_close_button'.</msg>
-<status status="PASS" starttime="20210606 12:41:28.629" endtime="20210606 12:41:28.782"/>
+<msg timestamp="20210606 15:27:40.573" level="INFO">Clicking element 'id:jivo_close_button'.</msg>
+<status status="PASS" starttime="20210606 15:27:40.573" endtime="20210606 15:27:40.717"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:29.797" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:28.783" endtime="20210606 12:41:29.797"/>
+<msg timestamp="20210606 15:27:41.735" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:40.718" endtime="20210606 15:27:41.735"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtNome</arg>
 <arg>${nomefake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:29.798" level="INFO">Typing text 'Rafael Nascimento' into text field 'id:cphMaster_cphMasterTemplate_txtNome'.</msg>
-<status status="PASS" starttime="20210606 12:41:29.798" endtime="20210606 12:41:30.139"/>
+<msg timestamp="20210606 15:27:41.736" level="INFO">Typing text 'Mirella Oliveira' into text field 'id:cphMaster_cphMasterTemplate_txtNome'.</msg>
+<status status="PASS" starttime="20210606 15:27:41.736" endtime="20210606 15:27:41.899"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:31.153" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:30.139" endtime="20210606 12:41:31.153"/>
+<msg timestamp="20210606 15:27:42.914" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:41.900" endtime="20210606 15:27:42.915"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtEmail</arg>
 <arg>${emailfake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:31.153" level="INFO">Typing text 'alexandre19@da.com' into text field 'id:cphMaster_cphMasterTemplate_txtEmail'.</msg>
-<status status="PASS" starttime="20210606 12:41:31.153" endtime="20210606 12:41:31.468"/>
+<msg timestamp="20210606 15:27:42.918" level="INFO">Typing text 'thales49@ig.com.br' into text field 'id:cphMaster_cphMasterTemplate_txtEmail'.</msg>
+<status status="PASS" starttime="20210606 15:27:42.916" endtime="20210606 15:27:43.214"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:32.483" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:31.469" endtime="20210606 12:41:32.483"/>
+<msg timestamp="20210606 15:27:44.225" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:43.216" endtime="20210606 15:27:44.226"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtTelefone</arg>
 <arg>${telefonefake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:32.486" level="INFO">Typing text '+55 41 4741-2939' into text field 'id:cphMaster_cphMasterTemplate_txtTelefone'.</msg>
-<status status="PASS" starttime="20210606 12:41:32.485" endtime="20210606 12:41:32.816"/>
+<msg timestamp="20210606 15:27:44.229" level="INFO">Typing text '+55 (031) 0092-8730' into text field 'id:cphMaster_cphMasterTemplate_txtTelefone'.</msg>
+<status status="PASS" starttime="20210606 15:27:44.228" endtime="20210606 15:27:44.610"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:33.833" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:32.818" endtime="20210606 12:41:33.833"/>
+<msg timestamp="20210606 15:27:45.627" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:44.612" endtime="20210606 15:27:45.627"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtEmpresa</arg>
 <arg>${empresafake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:33.837" level="INFO">Typing text 'Pedro Lucas Monteiro' into text field 'id:cphMaster_cphMasterTemplate_txtEmpresa'.</msg>
-<status status="PASS" starttime="20210606 12:41:33.833" endtime="20210606 12:41:34.132"/>
+<msg timestamp="20210606 15:27:45.632" level="INFO">Typing text 'Thales Duarte' into text field 'id:cphMaster_cphMasterTemplate_txtEmpresa'.</msg>
+<status status="PASS" starttime="20210606 15:27:45.631" endtime="20210606 15:27:45.937"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:35.147" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:34.133" endtime="20210606 12:41:35.147"/>
+<msg timestamp="20210606 15:27:46.946" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:45.939" endtime="20210606 15:27:46.947"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_btnNextStep</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:35.149" level="INFO">Clicking element 'id:cphMaster_cphMasterTemplate_btnNextStep'.</msg>
-<status status="PASS" starttime="20210606 12:41:35.149" endtime="20210606 12:41:35.449"/>
+<msg timestamp="20210606 15:27:46.949" level="INFO">Clicking element 'id:cphMaster_cphMasterTemplate_btnNextStep'.</msg>
+<status status="PASS" starttime="20210606 15:27:46.948" endtime="20210606 15:27:47.343"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:40.464" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20210606 12:41:35.450" endtime="20210606 12:41:40.464"/>
+<msg timestamp="20210606 15:27:52.351" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210606 15:27:47.345" endtime="20210606 15:27:52.352"/>
 </kw>
 <kw name="Select From List By Value" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_ddlColaboradores</arg>
 <arg>3</arg>
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<msg timestamp="20210606 12:41:40.464" level="INFO">Selecting options from selection list 'id:cphMaster_cphMasterTemplate_ddlColaboradores' by value 3.</msg>
-<status status="PASS" starttime="20210606 12:41:40.464" endtime="20210606 12:41:40.652"/>
+<msg timestamp="20210606 15:27:52.355" level="INFO">Selecting options from selection list 'id:cphMaster_cphMasterTemplate_ddlColaboradores' by value 3.</msg>
+<status status="PASS" starttime="20210606 15:27:52.354" endtime="20210606 15:27:52.583"/>
 </kw>
 <kw name="Get Selected List Label" library="SeleniumLibrary">
 <var>${selecionado}</var>
 <arg>id:cphMaster_cphMasterTemplate_ddlColaboradores</arg>
 <doc>Returns the label of selected option from selection list ``locator``.</doc>
-<msg timestamp="20210606 12:41:40.869" level="INFO">${selecionado} = 3 a 4 pessoas</msg>
-<status status="PASS" starttime="20210606 12:41:40.653" endtime="20210606 12:41:40.869"/>
+<msg timestamp="20210606 15:27:52.831" level="INFO">${selecionado} = 3 a 4 pessoas</msg>
+<status status="PASS" starttime="20210606 15:27:52.585" endtime="20210606 15:27:52.831"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <arg>${selecionado}</arg>
 <arg>3 a 4 pessoas</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20210606 12:41:40.870" endtime="20210606 12:41:40.870"/>
+<status status="PASS" starttime="20210606 15:27:52.833" endtime="20210606 15:27:52.834"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:41.881" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:40.870" endtime="20210606 12:41:41.881"/>
+<msg timestamp="20210606 15:27:53.838" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:52.835" endtime="20210606 15:27:53.838"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtLoginCorretora</arg>
 <arg>${empresafake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:41.885" level="INFO">Typing text 'Pedro Lucas Monteiro' into text field 'id:cphMaster_cphMasterTemplate_txtLoginCorretora'.</msg>
-<status status="PASS" starttime="20210606 12:41:41.881" endtime="20210606 12:41:42.182"/>
+<msg timestamp="20210606 15:27:53.842" level="INFO">Typing text 'Thales Duarte' into text field 'id:cphMaster_cphMasterTemplate_txtLoginCorretora'.</msg>
+<status status="PASS" starttime="20210606 15:27:53.840" endtime="20210606 15:27:54.174"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:43.198" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:42.184" endtime="20210606 12:41:43.198"/>
+<msg timestamp="20210606 15:27:55.177" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:54.176" endtime="20210606 15:27:55.178"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtSenha</arg>
 <arg>123456</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:43.199" level="INFO">Typing text '123456' into text field 'id:cphMaster_cphMasterTemplate_txtSenha'.</msg>
-<status status="PASS" starttime="20210606 12:41:43.199" endtime="20210606 12:41:43.472"/>
+<msg timestamp="20210606 15:27:55.181" level="INFO">Typing text '123456' into text field 'id:cphMaster_cphMasterTemplate_txtSenha'.</msg>
+<status status="PASS" starttime="20210606 15:27:55.179" endtime="20210606 15:27:55.468"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:41:44.482" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:41:43.474" endtime="20210606 12:41:44.482"/>
+<msg timestamp="20210606 15:27:56.471" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:27:55.469" endtime="20210606 15:27:56.471"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_btnIniciarAvaliacao</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:41:44.484" level="INFO">Clicking element 'id:cphMaster_cphMasterTemplate_btnIniciarAvaliacao'.</msg>
-<status status="PASS" starttime="20210606 12:41:44.484" endtime="20210606 12:41:44.769"/>
+<msg timestamp="20210606 15:27:56.475" level="INFO">Clicking element 'id:cphMaster_cphMasterTemplate_btnIniciarAvaliacao'.</msg>
+<status status="PASS" starttime="20210606 15:27:56.473" endtime="20210606 15:27:56.798"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>45</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:29.779" level="INFO">Slept 45 seconds</msg>
-<status status="PASS" starttime="20210606 12:41:44.770" endtime="20210606 12:42:29.780"/>
+<msg timestamp="20210606 15:28:41.813" level="INFO">Slept 45 seconds</msg>
+<status status="PASS" starttime="20210606 15:27:56.803" endtime="20210606 15:28:41.814"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>class:close</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:29.783" level="INFO">Clicking element 'class:close'.</msg>
-<status status="PASS" starttime="20210606 12:42:29.782" endtime="20210606 12:42:30.055"/>
+<msg timestamp="20210606 15:28:41.818" level="INFO">Clicking element 'class:close'.</msg>
+<status status="PASS" starttime="20210606 15:28:41.815" endtime="20210606 15:28:42.092"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:33.070" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210606 12:42:30.055" endtime="20210606 12:42:33.070"/>
+<msg timestamp="20210606 15:28:45.102" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210606 15:28:42.093" endtime="20210606 15:28:45.103"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Bem vindo ao Segfy!</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20210606 12:42:33.119" level="INFO">Current page contains text 'Bem vindo ao Segfy!'.</msg>
-<status status="PASS" starttime="20210606 12:42:33.071" endtime="20210606 12:42:33.119"/>
+<msg timestamp="20210606 15:28:45.164" level="INFO">Current page contains text 'Bem vindo ao Segfy!'.</msg>
+<status status="PASS" starttime="20210606 15:28:45.105" endtime="20210606 15:28:45.164"/>
 </kw>
 <kw name="Encerra seção" library="base" type="TEARDOWN">
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210606 12:42:33.325" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210606 12:42:33.119" endtime="20210606 12:42:33.325"/>
+<msg timestamp="20210606 15:28:45.386" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210606 15:28:45.168" endtime="20210606 15:28:45.386"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210606 12:42:33.326" endtime="20210606 12:42:35.697"/>
+<status status="PASS" starttime="20210606 15:28:45.387" endtime="20210606 15:28:47.816"/>
 </kw>
-<status status="PASS" starttime="20210606 12:42:33.119" endtime="20210606 12:42:35.699"/>
+<status status="PASS" starttime="20210606 15:28:45.166" endtime="20210606 15:28:47.816"/>
 </kw>
-<status status="PASS" starttime="20210606 12:41:14.827" endtime="20210606 12:42:35.700"/>
+<status status="PASS" starttime="20210606 15:27:28.586" endtime="20210606 15:28:47.818"/>
 </test>
-<status status="PASS" starttime="20210606 12:41:13.476" endtime="20210606 12:42:35.707"/>
+<status status="PASS" starttime="20210606 15:27:27.100" endtime="20210606 15:28:47.826"/>
 </suite>
-<suite id="s1-s2" name="Compra Assinatura" source="c:\qaninja\robot\segfy\tests\compra_assinatura.robot">
+<suite id="s1-s2" name="Compra Assinatura" source="c:\robot\segfy\tests\compra_assinatura.robot">
 <test id="s1-s2-t1" name="Cadastro de Usuario Trial e compra da assinatura">
 <kw name="Nova seção" library="base" type="SETUP">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${url}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20210606 12:42:35.738" level="INFO">Opening browser 'chrome' to base url 'https://homol-www.segfy.com/Experimente'.</msg>
-<status status="PASS" starttime="20210606 12:42:35.738" endtime="20210606 12:42:40.007"/>
+<msg timestamp="20210606 15:28:47.860" level="INFO">Opening browser 'chrome' to base url 'https://homol-www.segfy.com/Experimente'.</msg>
+<status status="PASS" starttime="20210606 15:28:47.859" endtime="20210606 15:28:56.687"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20210606 12:42:40.007" endtime="20210606 12:42:40.505"/>
+<status status="PASS" starttime="20210606 15:28:56.688" endtime="20210606 15:28:56.899"/>
 </kw>
-<status status="PASS" starttime="20210606 12:42:35.737" endtime="20210606 12:42:40.506"/>
+<status status="PASS" starttime="20210606 15:28:47.857" endtime="20210606 15:28:56.900"/>
 </kw>
 <kw name="Name" library="FakerLibrary">
 <var>${nomefake}</var>
 <doc>:example 'John Doe'</doc>
-<msg timestamp="20210606 12:42:40.507" level="INFO">${nomefake} = João Cardoso</msg>
-<status status="PASS" starttime="20210606 12:42:40.506" endtime="20210606 12:42:40.507"/>
+<msg timestamp="20210606 15:28:56.905" level="INFO">${nomefake} = Enrico Barros</msg>
+<status status="PASS" starttime="20210606 15:28:56.904" endtime="20210606 15:28:56.905"/>
 </kw>
 <kw name="Email" library="FakerLibrary">
 <var>${emailfake}</var>
-<msg timestamp="20210606 12:42:40.509" level="INFO">${emailfake} = pedro03@bol.com.br</msg>
-<status status="PASS" starttime="20210606 12:42:40.507" endtime="20210606 12:42:40.509"/>
+<msg timestamp="20210606 15:28:56.920" level="INFO">${emailfake} = luccada-mata@martins.br</msg>
+<status status="PASS" starttime="20210606 15:28:56.915" endtime="20210606 15:28:56.921"/>
 </kw>
 <kw name="Phone Number" library="FakerLibrary">
 <var>${telefonefake}</var>
-<msg timestamp="20210606 12:42:40.510" level="INFO">${telefonefake} = +55 (011) 6485 3802</msg>
-<status status="PASS" starttime="20210606 12:42:40.510" endtime="20210606 12:42:40.510"/>
+<msg timestamp="20210606 15:28:56.924" level="INFO">${telefonefake} = +55 61 6283-8115</msg>
+<status status="PASS" starttime="20210606 15:28:56.922" endtime="20210606 15:28:56.925"/>
 </kw>
 <kw name="Name" library="FakerLibrary">
 <var>${empresafake}</var>
 <doc>:example 'John Doe'</doc>
-<msg timestamp="20210606 12:42:40.511" level="INFO">${empresafake} = Beatriz Gonçalves</msg>
-<status status="PASS" starttime="20210606 12:42:40.511" endtime="20210606 12:42:40.511"/>
+<msg timestamp="20210606 15:28:56.930" level="INFO">${empresafake} = Noah Ramos</msg>
+<status status="PASS" starttime="20210606 15:28:56.928" endtime="20210606 15:28:56.931"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:hs-eu-confirmation-button</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:40.514" level="INFO">Clicking element 'id:hs-eu-confirmation-button'.</msg>
-<status status="PASS" starttime="20210606 12:42:40.514" endtime="20210606 12:42:40.825"/>
+<msg timestamp="20210606 15:28:56.938" level="INFO">Clicking element 'id:hs-eu-confirmation-button'.</msg>
+<status status="PASS" starttime="20210606 15:28:56.935" endtime="20210606 15:28:57.648"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:41.837" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:40.826" endtime="20210606 12:42:41.837"/>
+<msg timestamp="20210606 15:28:58.655" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:28:57.648" endtime="20210606 15:28:58.655"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>class:hoverl_85b0</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:41.840" level="INFO">Clicking element 'class:hoverl_85b0'.</msg>
-<status status="PASS" starttime="20210606 12:42:41.839" endtime="20210606 12:42:42.250"/>
+<msg timestamp="20210606 15:28:58.658" level="INFO">Clicking element 'class:hoverl_85b0'.</msg>
+<status status="PASS" starttime="20210606 15:28:58.657" endtime="20210606 15:28:59.036"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:43.268" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:42.253" endtime="20210606 12:42:43.268"/>
+<msg timestamp="20210606 15:29:00.046" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:28:59.039" endtime="20210606 15:29:00.046"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:jivo_close_button</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:43.268" level="INFO">Clicking element 'id:jivo_close_button'.</msg>
-<status status="PASS" starttime="20210606 12:42:43.268" endtime="20210606 12:42:43.348"/>
+<msg timestamp="20210606 15:29:00.049" level="INFO">Clicking element 'id:jivo_close_button'.</msg>
+<status status="PASS" starttime="20210606 15:29:00.048" endtime="20210606 15:29:00.209"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:44.362" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:43.349" endtime="20210606 12:42:44.362"/>
+<msg timestamp="20210606 15:29:01.221" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:29:00.212" endtime="20210606 15:29:01.221"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtNome</arg>
 <arg>${nomefake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:44.363" level="INFO">Typing text 'João Cardoso' into text field 'id:cphMaster_cphMasterTemplate_txtNome'.</msg>
-<status status="PASS" starttime="20210606 12:42:44.362" endtime="20210606 12:42:44.473"/>
+<msg timestamp="20210606 15:29:01.224" level="INFO">Typing text 'Enrico Barros' into text field 'id:cphMaster_cphMasterTemplate_txtNome'.</msg>
+<status status="PASS" starttime="20210606 15:29:01.223" endtime="20210606 15:29:01.497"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:45.489" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:44.473" endtime="20210606 12:42:45.489"/>
+<msg timestamp="20210606 15:29:02.505" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:29:01.497" endtime="20210606 15:29:02.506"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtEmail</arg>
 <arg>${emailfake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:45.491" level="INFO">Typing text 'pedro03@bol.com.br' into text field 'id:cphMaster_cphMasterTemplate_txtEmail'.</msg>
-<status status="PASS" starttime="20210606 12:42:45.490" endtime="20210606 12:42:45.723"/>
+<msg timestamp="20210606 15:29:02.508" level="INFO">Typing text 'luccada-mata@martins.br' into text field 'id:cphMaster_cphMasterTemplate_txtEmail'.</msg>
+<status status="PASS" starttime="20210606 15:29:02.507" endtime="20210606 15:29:02.891"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:46.735" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:45.723" endtime="20210606 12:42:46.735"/>
+<msg timestamp="20210606 15:29:03.902" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:29:02.892" endtime="20210606 15:29:03.902"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtTelefone</arg>
 <arg>${telefonefake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:46.738" level="INFO">Typing text '+55 (011) 6485 3802' into text field 'id:cphMaster_cphMasterTemplate_txtTelefone'.</msg>
-<status status="PASS" starttime="20210606 12:42:46.737" endtime="20210606 12:42:46.978"/>
+<msg timestamp="20210606 15:29:03.905" level="INFO">Typing text '+55 61 6283-8115' into text field 'id:cphMaster_cphMasterTemplate_txtTelefone'.</msg>
+<status status="PASS" starttime="20210606 15:29:03.904" endtime="20210606 15:29:04.265"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:47.987" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:46.979" endtime="20210606 12:42:47.988"/>
+<msg timestamp="20210606 15:29:05.269" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:29:04.267" endtime="20210606 15:29:05.270"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtEmpresa</arg>
 <arg>${empresafake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:47.989" level="INFO">Typing text 'Beatriz Gonçalves' into text field 'id:cphMaster_cphMasterTemplate_txtEmpresa'.</msg>
-<status status="PASS" starttime="20210606 12:42:47.988" endtime="20210606 12:42:48.095"/>
+<msg timestamp="20210606 15:29:05.275" level="INFO">Typing text 'Noah Ramos' into text field 'id:cphMaster_cphMasterTemplate_txtEmpresa'.</msg>
+<status status="PASS" starttime="20210606 15:29:05.274" endtime="20210606 15:29:05.579"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:49.102" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:48.096" endtime="20210606 12:42:49.103"/>
+<msg timestamp="20210606 15:29:06.586" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:29:05.581" endtime="20210606 15:29:06.587"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_btnNextStep</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:49.106" level="INFO">Clicking element 'id:cphMaster_cphMasterTemplate_btnNextStep'.</msg>
-<status status="PASS" starttime="20210606 12:42:49.105" endtime="20210606 12:42:49.437"/>
+<msg timestamp="20210606 15:29:06.590" level="INFO">Clicking element 'id:cphMaster_cphMasterTemplate_btnNextStep'.</msg>
+<status status="PASS" starttime="20210606 15:29:06.589" endtime="20210606 15:29:06.982"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:54.457" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20210606 12:42:49.440" endtime="20210606 12:42:54.457"/>
+<msg timestamp="20210606 15:29:11.998" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210606 15:29:06.985" endtime="20210606 15:29:11.998"/>
 </kw>
 <kw name="Select From List By Value" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_ddlColaboradores</arg>
 <arg>3</arg>
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<msg timestamp="20210606 12:42:54.458" level="INFO">Selecting options from selection list 'id:cphMaster_cphMasterTemplate_ddlColaboradores' by value 3.</msg>
-<status status="PASS" starttime="20210606 12:42:54.458" endtime="20210606 12:42:54.662"/>
+<msg timestamp="20210606 15:29:12.002" level="INFO">Selecting options from selection list 'id:cphMaster_cphMasterTemplate_ddlColaboradores' by value 3.</msg>
+<status status="PASS" starttime="20210606 15:29:12.001" endtime="20210606 15:29:12.226"/>
 </kw>
 <kw name="Get Selected List Label" library="SeleniumLibrary">
 <var>${selecionado}</var>
 <arg>id:cphMaster_cphMasterTemplate_ddlColaboradores</arg>
 <doc>Returns the label of selected option from selection list ``locator``.</doc>
-<msg timestamp="20210606 12:42:54.870" level="INFO">${selecionado} = 3 a 4 pessoas</msg>
-<status status="PASS" starttime="20210606 12:42:54.664" endtime="20210606 12:42:54.870"/>
+<msg timestamp="20210606 15:29:12.471" level="INFO">${selecionado} = 3 a 4 pessoas</msg>
+<status status="PASS" starttime="20210606 15:29:12.228" endtime="20210606 15:29:12.472"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <arg>${selecionado}</arg>
 <arg>3 a 4 pessoas</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20210606 12:42:54.870" endtime="20210606 12:42:54.870"/>
+<status status="PASS" starttime="20210606 15:29:12.473" endtime="20210606 15:29:12.474"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:55.890" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:54.874" endtime="20210606 12:42:55.890"/>
+<msg timestamp="20210606 15:29:13.491" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:29:12.475" endtime="20210606 15:29:13.492"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtLoginCorretora</arg>
 <arg>${empresafake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:55.892" level="INFO">Typing text 'Beatriz Gonçalves' into text field 'id:cphMaster_cphMasterTemplate_txtLoginCorretora'.</msg>
-<status status="PASS" starttime="20210606 12:42:55.892" endtime="20210606 12:42:56.184"/>
+<msg timestamp="20210606 15:29:13.498" level="INFO">Typing text 'Noah Ramos' into text field 'id:cphMaster_cphMasterTemplate_txtLoginCorretora'.</msg>
+<status status="PASS" starttime="20210606 15:29:13.495" endtime="20210606 15:29:13.700"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:57.199" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:56.185" endtime="20210606 12:42:57.199"/>
+<msg timestamp="20210606 15:29:14.716" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:29:13.700" endtime="20210606 15:29:14.716"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_txtSenha</arg>
 <arg>123456</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:57.201" level="INFO">Typing text '123456' into text field 'id:cphMaster_cphMasterTemplate_txtSenha'.</msg>
-<status status="PASS" starttime="20210606 12:42:57.201" endtime="20210606 12:42:57.448"/>
+<msg timestamp="20210606 15:29:14.720" level="INFO">Typing text '123456' into text field 'id:cphMaster_cphMasterTemplate_txtSenha'.</msg>
+<status status="PASS" starttime="20210606 15:29:14.718" endtime="20210606 15:29:15.005"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:42:58.453" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210606 12:42:57.451" endtime="20210606 12:42:58.453"/>
+<msg timestamp="20210606 15:29:16.020" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210606 15:29:15.007" endtime="20210606 15:29:16.021"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:cphMaster_cphMasterTemplate_btnIniciarAvaliacao</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:42:58.456" level="INFO">Clicking element 'id:cphMaster_cphMasterTemplate_btnIniciarAvaliacao'.</msg>
-<status status="PASS" starttime="20210606 12:42:58.455" endtime="20210606 12:42:58.713"/>
+<msg timestamp="20210606 15:29:16.023" level="INFO">Clicking element 'id:cphMaster_cphMasterTemplate_btnIniciarAvaliacao'.</msg>
+<status status="PASS" starttime="20210606 15:29:16.022" endtime="20210606 15:29:16.346"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>45</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:43:43.729" level="INFO">Slept 45 seconds</msg>
-<status status="PASS" starttime="20210606 12:42:58.714" endtime="20210606 12:43:43.729"/>
+<msg timestamp="20210606 15:30:01.368" level="INFO">Slept 45 seconds</msg>
+<status status="PASS" starttime="20210606 15:29:16.348" endtime="20210606 15:30:01.369"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>class:close</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:43:43.730" level="INFO">Clicking element 'class:close'.</msg>
-<status status="PASS" starttime="20210606 12:43:43.730" endtime="20210606 12:43:43.985"/>
+<msg timestamp="20210606 15:30:01.374" level="INFO">Clicking element 'class:close'.</msg>
+<status status="PASS" starttime="20210606 15:30:01.373" endtime="20210606 15:30:01.669"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:43:46.990" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210606 12:43:43.987" endtime="20210606 12:43:46.990"/>
+<msg timestamp="20210606 15:30:04.674" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210606 15:30:01.670" endtime="20210606 15:30:04.675"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Bem vindo ao Segfy!</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20210606 12:43:47.048" level="INFO">Current page contains text 'Bem vindo ao Segfy!'.</msg>
-<status status="PASS" starttime="20210606 12:43:46.991" endtime="20210606 12:43:47.048"/>
+<msg timestamp="20210606 15:30:04.751" level="INFO">Current page contains text 'Bem vindo ao Segfy!'.</msg>
+<status status="PASS" starttime="20210606 15:30:04.679" endtime="20210606 15:30:04.751"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>class:link-assinar</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:43:47.052" level="INFO">Clicking element 'class:link-assinar'.</msg>
-<status status="PASS" starttime="20210606 12:43:47.048" endtime="20210606 12:43:47.207"/>
+<msg timestamp="20210606 15:30:04.755" level="INFO">Clicking element 'class:link-assinar'.</msg>
+<status status="PASS" starttime="20210606 15:30:04.754" endtime="20210606 15:30:04.950"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210606 12:43:52.224" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20210606 12:43:47.209" endtime="20210606 12:43:52.224"/>
+<msg timestamp="20210606 15:30:09.959" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210606 15:30:04.952" endtime="20210606 15:30:09.959"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
-<arg>//div[@class="col-sm-4"]//a[text()="Contratar agora!"</arg>
+<arg>//div[@class="col-sm-4"]//a[text()="Contratar agora!"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210606 12:43:52.225" level="INFO">Clicking element '//div[@class="col-sm-4"]//a[text()="Contratar agora!"'.</msg>
+<msg timestamp="20210606 15:30:09.963" level="INFO">Clicking element '//div[@class="col-sm-4"]//a[text()="Contratar agora!"]'.</msg>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210606 12:43:52.533" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210606 12:43:52.286" endtime="20210606 12:43:52.533"/>
+<msg timestamp="20210606 15:30:10.330" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210606 15:30:10.017" endtime="20210606 15:30:10.331"/>
 </kw>
-<msg timestamp="20210606 12:43:52.664" level="FAIL">InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //div[@class="col-sm-4"]//a[text()="Contratar agora!" because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class="col-sm-4"]//a[text()="Contratar agora!"' is not a valid XPath expression.
-  (Session info: chrome=91.0.4472.77)
-</msg>
-<status status="FAIL" starttime="20210606 12:43:52.225" endtime="20210606 12:43:52.664"/>
+<msg timestamp="20210606 15:30:10.343" level="FAIL">Element with locator '//div[@class="col-sm-4"]//a[text()="Contratar agora!"]' not found.</msg>
+<status status="FAIL" starttime="20210606 15:30:09.961" endtime="20210606 15:30:10.343"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.668" endtime="20210606 12:43:52.668"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.345" endtime="20210606 15:30:10.345"/>
 </kw>
 <kw name="Cpf" library="FakerLibrary">
 <var>${cpffake}</var>
-<status status="NOT RUN" starttime="20210606 12:43:52.669" endtime="20210606 12:43:52.669"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.346" endtime="20210606 15:30:10.346"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:ContentPlaceHolderMaster_CphMasterAutenticado_informacoesCobranca_txtCpfCnpj</arg>
 <arg>${cpffake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.669" endtime="20210606 12:43:52.669"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.347" endtime="20210606 15:30:10.347"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.669" endtime="20210606 12:43:52.669"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.348" endtime="20210606 15:30:10.348"/>
 </kw>
 <kw name="Postcode" library="FakerLibrary">
 <var>${cepfake}</var>
@@ -510,69 +507,66 @@ SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@clas
 :param formatted: True to allow formatted postcodes, else False (default True)
 :example formatted: '41224-212' '83992-291' '12324322'
 :example raw: '43920231' '34239530'</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.669" endtime="20210606 12:43:52.669"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.350" endtime="20210606 15:30:10.351"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>id:ContentPlaceHolderMaster_CphMasterAutenticado_informacoesCobranca_txtCep</arg>
 <arg>${cepfake}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.669" endtime="20210606 12:43:52.669"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.352" endtime="20210606 15:30:10.353"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.669" endtime="20210606 12:43:52.669"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.354" endtime="20210606 15:30:10.354"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:ContentPlaceHolderMaster_CphMasterAutenticado_informacoesCobranca_txtEndereco</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.673" endtime="20210606 12:43:52.673"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.356" endtime="20210606 15:30:10.356"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.673" endtime="20210606 12:43:52.673"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.357" endtime="20210606 15:30:10.357"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:ContentPlaceHolderMaster_CphMasterAutenticado_btnAssinar</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.673" endtime="20210606 12:43:52.673"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.359" endtime="20210606 15:30:10.359"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.673" endtime="20210606 12:43:52.673"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.360" endtime="20210606 15:30:10.360"/>
 </kw>
 <kw name="Page Should Not Contain" library="SeleniumLibrary">
 <arg>Suas informações foram atualizadas</arg>
 <doc>Verifies the current page does not contain ``text``.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.673" endtime="20210606 12:43:52.673"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.362" endtime="20210606 15:30:10.362"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20210606 12:43:52.677" endtime="20210606 12:43:52.677"/>
+<status status="NOT RUN" starttime="20210606 15:30:10.364" endtime="20210606 15:30:10.365"/>
 </kw>
 <kw name="Encerra seção" library="base" type="TEARDOWN">
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210606 12:43:52.948" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210606 12:43:52.677" endtime="20210606 12:43:52.948"/>
+<msg timestamp="20210606 15:30:10.678" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210606 15:30:10.369" endtime="20210606 15:30:10.679"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210606 12:43:52.948" endtime="20210606 12:43:55.346"/>
+<status status="PASS" starttime="20210606 15:30:10.679" endtime="20210606 15:30:13.491"/>
 </kw>
-<status status="PASS" starttime="20210606 12:43:52.677" endtime="20210606 12:43:55.347"/>
+<status status="PASS" starttime="20210606 15:30:10.367" endtime="20210606 15:30:13.492"/>
 </kw>
-<status status="FAIL" starttime="20210606 12:42:35.735" endtime="20210606 12:43:55.349">InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //div[@class="col-sm-4"]//a[text()="Contratar agora!" because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class="col-sm-4"]//a[text()="Contratar agora!"' is not a valid XPath expression.
-  (Session info: chrome=91.0.4472.77)
-</status>
+<status status="FAIL" starttime="20210606 15:28:47.855" endtime="20210606 15:30:13.494">Element with locator '//div[@class="col-sm-4"]//a[text()="Contratar agora!"]' not found.</status>
 </test>
-<status status="FAIL" starttime="20210606 12:42:35.717" endtime="20210606 12:43:55.361"/>
+<status status="FAIL" starttime="20210606 15:28:47.834" endtime="20210606 15:30:13.500"/>
 </suite>
-<status status="FAIL" starttime="20210606 12:41:13.422" endtime="20210606 12:43:55.371"/>
+<status status="FAIL" starttime="20210606 15:27:27.000" endtime="20210606 15:30:13.510"/>
 </suite>
 <statistics>
 <total>
